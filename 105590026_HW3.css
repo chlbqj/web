@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    background: #EDF2C5;
+  }
+  #wrapper {
+      width: 940px;    /*版面寬度1260px*/
+      margin: auto;    /*版面居中對齊*/
+      padding: 0px 160px 0;   /*上下，左右 內距*/
+  
+  }
+ header{
+    margin-top: 53px;
+  }
+ header h1 {
+      float: left;   /*向左邊對齊*/
+      font-family: Arial Black;     /*字體*/
+      font-size: 44px;    /*大小*/
+      color: #778A50;    /*顏色*/
+      margin: 0;
+  }
+  
+ header #btn {
+      float: right;   /*向右邊對齊*/
+      width: 260px;   /*寬度*/
+      margin-right: -22px;   /*間距，後面多出來10px*/
+      margin-top: 30px;
+      margin-bottom: 0px;
+  }
+  
+  #title {
+      margin-bottom: 8px;
+  }
+  
+  #btn_1, #btn_2, #line {
+      float: left;
+      margin-right: 10px;
+  }
+  
+  #btn_1>a {
+      display: inline-block;
+      margin: 5px;
+  }
+  
+  #upline {
+      font-size: 26px;
+  }
+  
+  #btn_2>a {
+      display: inline-block;
+      border: 1px #778A50 solid; /*設定大小，顏色，外框*/
+      border-radius: 3px; /*圓角*/
+      font-family: Arial BoldMT;
+      color: #778A50;
+      text-decoration: none; /*清除底線*/
+      margin: 5px;
+      font-size: 14px;
+      padding: 4px 10px;
+      text-align: center;
+  }
+  
+ header #btn::after {
+      clear: both;  /*左邊跟右邊漂浮清掉*/
+      content: ""; /*讓中間全部變空白*/
+      display: block;   /*設成一整條*/
+  }
+  
+  header::after {
+      clear: both;    /*左邊跟右邊漂浮清掉*/
+      content: "";     /*讓中間全部變空白*/
+      display: block;    /*設成一整條*/
+  }
+  
+  #content {
+      font-family: Arial Black;
+      font-size: 16px;
+      color: #EDF2C5;
+  }
+  #label ul{
+    margin: 0;
+    padding: 0;
+  }
+  #label li {
+      display: inline-block;
+      padding: 16px 30px ;
+      margin: 0;
+  }
+  
+  #label {
+      background: #778A50;
+      border-radius: 3px;
+  }
+  
+  #wrapper>img {
+      margin-top: 20px;
+      width: 940px;
+  }
+  
+  
+  #vegetables_all{
+      float: left;
+      width: 445px;
+      padding-top: 30px;
+  }
+  #contact_all{
+      float: right;
+      width: 445px;
+      padding-top: 30px;
+  }
+  
+  
+  #title1_vegetable{
+      background: #778A50;
+      border-radius: 3px;
+      padding: 0px 30px ;
+      line-height: 46px;  /*顏色高度*/
+      color: #EDF2C5;
+      font-size: 16px;
+  }
+  #title2_contact{
+      background: #778A50;
+      border-radius: 3px;
+      padding: 0px 30px ;
+      line-height: 46px;  /*顏色高度*/
+      color: #EDF2C5;
+      font-size: 16px;
+  }
+  #vegetables_contact::after{
+      clear: both;    /*左邊跟右邊漂浮清掉*/
+      content: "";    /*讓中間全部變空白*/
+      display: block;    /*設成一整條*/
+  }
+  h2{
+    margin: 0;
+    font-family: "Arial Black";
+  }
+  #vegetables_picture{
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+  #vegetable1,#vegetable2,#vegetable3{
+    float: left;
+    margin-right: 12px;
+  }
+  #vegetable3{
+    margin-right: -12px;
+  }
+  #vegetables_picture::after{
+      clear: both;    /*左邊跟右邊漂浮清掉*/
+      content: "";    /*讓中間全部變空白*/
+      display: block;   /*設成一整條*/
+  }
+  #contact_word{
+     background: #F7FBDA;
+  }
+  #word
+  {
+    line-height: 1.33;
+    font-family: ArialMT Regular;
+    color: #7D7D7D;
+    padding: 16px 15px;
+  }
+  #downline{
+    border-top: 1px #7D7D7D solid;
+    width: 414px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  #contact_word{
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+  #word p{
+     margin: 0px;
+     font-size: 12px;
+  }
+  
+  #footer {
+      background: #778A50;
+      height: 60px;
+      font-family: Arial;
+      margin: auto;
+  }
+  #footer  p{
+      font-size: 12px;
+      padding: 24px ;
+      text-align: center;
+      color: #EDF2C5;
+  }
+  #after-btn {
+      clear: right;
+  }
